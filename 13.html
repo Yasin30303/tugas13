@@ -1,0 +1,103 @@
+<html>
+
+    <script>
+
+      document.getElementById("home").style.display = "block";
+
+      function openKota(namakota) {
+        var i;
+        var x = document.getElementsByClassName("kota");
+
+        for (i = 0; i < x.length; i++) {
+          x[i].style.display = "none";
+        }
+
+        document.getElementById(namakota).style.display = "block";
+      }
+    </script>
+
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="w3.css">
+</head>
+<body>
+<div class="w3-container w3-black">
+<center><img src="nismo.jpg" width=50% height=20%></center>
+</div>
+<div class="w3-bar w3-gray">
+  <button class="w3-bar-item w3-button" onclick="openKota('home')">Beranda</button>
+  <button class="w3-bar-item w3-button" onclick="openKota('sejarah')">Sejarah</button>
+  <button class="w3-bar-item w3-button" onclick="openKota('prestasi')">Prestasi</button>
+<div class="w3-dropdown-hover">
+  <button class="w3-bar-item w3-button" onclick="openKota('Produk')">Produk</button>
+ <div class="w3-dropdown-content w3-bar-block w3-card-4">
+  <button class="w3-bar-item w3-button" onclick="openKota('gtr')">GTR</button>
+  <button class="w3-bar-item w3-button" onclick="openKota('fairlady')">Fairlady</button>
+  <button class="w3-bar-item w3-button" onclick="openKota('juke')">Juke</button>
+ </div>
+ </div>
+  <button class="w3-bar-item w3-button" onclick="openKota('Profil')">Profil</button>
+</div>
+<div id='home' class="w3-container kota w3-animate-top" style="display:block">
+<center>
+<h1>NISMO</h1>
+<h2>Nismo (singkatan dari Nissan Motorsport International Limited (ニッサン・モータースポーツ・インターナショナル株式会社 Nissan Mōtā Supōtsu Intānashonaru Kabushiki-gaisha)
+ adalah divisi tuning motorsport dari Nissan Motor Company yang dibentuk pada tahun 1984. Sebagai hasil penggabungan dua departemen motorsport, mobil Nismo telah berpartisipasi dalam JSPC, Formula Nippon, JTCC, 24 Jam Le Mans dan 24 Hours of Daytona .Mereka saat ini berpartisipasi dalam Super GT dan FIA GT Championship.
+ </h2></center>
+</center>
+</div>
+<div id="sejarah" class="w3-container kota w3-animate-right" style="display-block">
+<center>
+<h1>Sejarah NISMO</h1>
+<h2>Pada tahun 1984, Nissan memutuskan bahwa ingin menggabungkan dua divisi motorsport yang didirikan pada akhir 1960-an, mereka mempublikasikan Divisi 3 yang berbasis di pabrik Oppama yang bertanggung jawab untuk kebutuhan tim privateer dan Khusus Divisi Pengujian Mobil, dan pabrik Omori yang bertanggung jawab untuk operasi pabrik. Penggabungan dikhususkan dalam balap mobil sport, tetapi juga memberikan dukungan untuk tim yang bersaing di seri F3 domestik.
+</h2>
+</center>
+</div>
+<div id="prestasi" class="w3-container kota w3-animate-left" style="display-block">
+<center>
+<h1>Prestasi NISMO</h1>
+</center>
+<img src="1936.jpg">
+<h2>1936</h2><p>Hanya di tahun kedua Nissan Motor Company, gairah untuk motorsport terlihat jelas. Pada trek oval 1.200 meter di dekat Tokyo, mesin supercharged baru Datsun NL75 membantu pembalap menang melawan mobil asing lain yang jauh lebih besar, memulai legenda "Pembunuh Raksasa". Ini juga memulai tradisi mengambil pelajaran dari balap, dan membawanya ke kendaraan jalanan kami.</p>
+<img src="1958.jpg">
+<h2>1958</h2><p><b>MENAKLUKKAN TANTANGAN 19 HARI, ORANG LAIN TIDAK BISA BERTAHAN</b></p>
+<p>Memerangi jalan yang buruk, banjir, dan suhu ekstrem, Nissan semakin mengukuhkan reputasinya untuk ketahanan dengan menyelesaikan pertama di kelasnya di "The World's Cruelest Rally" di sekitar benua Australia. Setengah dari peserta tidak menyelesaikan kursus 16.600 km - dianggap sangat parah, tidak pernah digunakan lagi.</p>
+<img src="1990.jpg">
+<h2>1990</h2><b>KEMBALINYA SANG RAJA</b></h2>
+<p>Setelah membawa GT-R kembali pada tahun 1989, ia kembali ke motorsport dengan balas dendam, menjilat semua pesaing untuk memenangkan balapan pertamanya pada tahun 1990. Ini menjadi salah satu pembalap paling dominan yang pernah ada di Kejuaraan Mobil Touring Seluruh Jepang, dengan yang belum pernah terjadi sebelumnya. 29 kemenangan beruntun di tahun 1993. Di Australia, GT-R memenangkan gelar untuk tahun 1991 dan 1992, dan mendapat julukan <b>"Godzilla"</b>x.</p>
+</div>
+<div id="gtr" class="w3-container kota w3-animate-bottom" style="display-block">
+<center>
+<h1>GTR</h1>
+<img src="gtr.jpg">
+</center>
+</div>
+<div id="fairlady" class="w3-container kota w3-animate-bottom" style="display-block">
+<center>
+<h1>370z</h1>
+<img src="370z.jpg" width=40% >
+</center>
+</div>
+<div id="juke" class="w3-container kota w3-animate-bottom" style="display-block">
+<center>
+<h1>Juke</h1>
+<img src="juke.jpg">
+</center>
+</div>
+<div id="Profil" class="w3-container kota w3-animate-bottom" style="display-block">
+<center>
+<h1>Profil</h1>
+<img src="profil.jpg" width=10% height=25%>
+<h2>
+Nama  : Muhammad Nuaina Yasin<br>
+NIM   : 10122484<br>
+Kelas : IF-6<br>
+</center>
+</div>
+</body>
+
+
+
+
+
+</html>
